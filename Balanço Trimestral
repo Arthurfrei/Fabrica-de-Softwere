@@ -1,0 +1,27 @@
+package expace;
+
+public class BalancoTrimestral {
+
+	public static void main(String[] args) {
+		
+		int janeiro = 15000;
+		int fevereiro = 23000;
+		int março = 17000;
+		
+		int GastoTRimestral = (janeiro+fevereiro+março);
+		
+		System.out.println(GastoTRimestral);
+		
+		  if (GastoTRimestral > 50000) {
+				System.out.println("Estourou o orçamento!");
+				}	
+				
+			else {
+				System.out.println("Não estourou o orçamento!");
+					}	
+		    
+		
+		
+	}
+
+}
